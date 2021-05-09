@@ -26,33 +26,15 @@ const Meta = () => {
       <link
         rel="mask-icon"
         href={basePath + '/favicon/safari-pinned-tab.svg'}
-        color="#5bbad5"
+        color="#000"
       />
       <meta name="msapplication-TileColor" content="#da532c" />
+      <meta
+        name="msapplication-config"
+        content={basePath + '/favicon/browserconfig.xml'}
+      />
       <meta name="theme-color" content="#ffffff" />
-      {/* <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href={basePath + '/favicon/apple-touch-icon.png'}
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href={basePath + '/favicon/favicon-32x32.png'}
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href={basePath + '/favicon/favicon-16x16.png'}
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        href={basePath + '/favicon/qwerty-log.png'}
-      />
-      <link rel="manifest" href={basePath + '/favicon/site.webmanifest'} />
+      {/* 
       <link
         rel="mask-icon"
         href={basePath + '/favicon/safari-pinned-tab.svg'}
