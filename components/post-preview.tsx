@@ -1,16 +1,13 @@
 import Link from 'next/link'
-import Author from '../types/author'
 import DateDistance from './date-distance'
 import TagList from './tag-list'
 
 type Props = {
   title: string
-  coverImage: string
+  tags: string[]
   date: string
   excerpt: string
-  author: Author
   slug: string
-  tags: string[]
 }
 
 const PostPreview = ({ title, tags, date, slug }: Props) => {
