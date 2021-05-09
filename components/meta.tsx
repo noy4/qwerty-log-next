@@ -28,16 +28,12 @@ const Meta = () => {
         href={basePath + '/favicon/safari-pinned-tab.svg'}
         color="#000"
       />
-      <meta name="msapplication-TileColor" content="#da532c" />
+      <meta name="msapplication-TileColor" content="#000" />
       <meta
         name="msapplication-config"
         content={basePath + '/favicon/browserconfig.xml'}
       />
-      <meta name="theme-color" content="#ffffff" />
-      {/* 
-      <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" content="#000" />
-      <link rel="alternate" type="application/rss+xml" href={basePath + '/favicon/feed.xml'} /> */}
       <meta
         name="description"
         content="A statically generated blog using Next.js and Markdown, written by Qwerty."
