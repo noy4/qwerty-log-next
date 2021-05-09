@@ -1,6 +1,10 @@
 const isProd = process.env.NODE_ENV === 'production'
+const basePath = isProd ? '/qwerty-log' : ''
 
 module.exports = {
-  basePath: isProd ? '/qwerty-log' : '',
-  assetPrefix: isProd ? '/qwerty-log' : '',
+  basePath,
+  assetPrefix: basePath,
+  env: {
+    basePath,
+  },
 }
