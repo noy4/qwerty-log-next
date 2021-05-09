@@ -1,5 +1,6 @@
 ---
 title: 'これ以上何が必要なんじゃこれ以上何が必要なん'
+tags: [虎狼の血, あき竹城]
 excerpt: '＠やめてくださいこんなこと許されません
 テープじゃ監視カメラのテープ探せ 
 ＠いやダメです　絶対ダメです
@@ -8,14 +9,7 @@ excerpt: '＠やめてくださいこんなこと許されません
 ＠大上さん？大丈夫ですか？
 ＠大上さん　大上さん
 '
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2020-04-16T05:35:07.322Z'
-author:
-  name: JJ Kasper
-  picture: '/assets/blog/authors/jj.jpeg'
-ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
-tags: [虎狼の血, あき竹城]
 ---
 
 ## 何が必要なんじゃ！

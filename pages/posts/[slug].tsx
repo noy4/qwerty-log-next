@@ -31,12 +31,12 @@ const Post = ({ post }: Props) => {
             <article className="mb-32">
               <Head>
                 <title>{post.title}</title>
+                <meta property="og:title" content={post.title} />
+                <meta property="og:description" content={post.excerpt} />
               </Head>
               <PostHeader
                 title={post.title}
-                coverImage={post.coverImage}
                 date={post.date}
-                author={post.author}
                 tags={post.tags}
               />
               <PostBody content={post.content} />

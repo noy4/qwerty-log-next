@@ -1,13 +1,10 @@
-import Author from '../types/author'
 import DateFormatter from './date-formatter'
 import PostTitle from './post-title'
 import TagList from './tag-list'
 
 type Props = {
   title: string
-  coverImage: string
   date: string
-  author: Author
   tags: string[]
 }
 

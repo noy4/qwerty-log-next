@@ -2,6 +2,9 @@ import Head from 'next/head'
 
 const basePath = process.env.basePath
 
+const description =
+  'A statically generated blog using Next.js and Markdown, written by Qwerty.'
+
 const Meta = () => {
   return (
     <Head>
@@ -34,13 +37,16 @@ const Meta = () => {
         content={basePath + '/favicon/browserconfig.xml'}
       />
       <meta name="theme-color" content="#000" />
-      <meta
-        name="description"
-        content="A statically generated blog using Next.js and Markdown, written by Qwerty."
-      />
+
+      <meta name="description" content={description} />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@noy_qwerty" />
+      <meta property="og:url" content="https://noy4.github.io/qwerty-log/" />
+      <meta property="og:title" content="Qwerty Log" />
+      <meta property="og:description" content={description} />
       <meta
         property="og:image"
-        content={basePath + '/favicon/qwerty-log.png'}
+        content="https://noy4.github.io/qwerty-log/favicon/apple-touch-icon.png"
       />
     </Head>
   )
