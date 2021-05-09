@@ -8,9 +8,34 @@ const Meta = () => {
       <link
         rel="apple-touch-icon"
         sizes="180x180"
+        href={basePath + '/apple-touch-icon.png'}
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href={basePath + '/favicon-32x32.png'}
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href={basePath + '/favicon-16x16.png'}
+      />
+      <link rel="manifest" href={basePath + '/site.webmanifest'} />
+      <link
+        rel="mask-icon"
+        href={basePath + '/safari-pinned-tab.svg'}
+        color="#5bbad5"
+      />
+      <meta name="msapplication-TileColor" content="#da532c" />
+      <meta name="theme-color" content="#ffffff" />
+      {/* <link
+        rel="apple-touch-icon"
+        sizes="180x180"
         href={basePath + '/favicon/apple-touch-icon.png'}
       />
-      {/* <link
+      <link
         rel="icon"
         type="image/png"
         sizes="32x32"
@@ -21,7 +46,7 @@ const Meta = () => {
         type="image/png"
         sizes="16x16"
         href={basePath + '/favicon/favicon-16x16.png'}
-      /> */}
+      />
       <link
         rel="icon"
         type="image/png"
@@ -40,12 +65,10 @@ const Meta = () => {
         content={basePath + '/favicon/browserconfig.xml'}
       />
       <meta name="theme-color" content="#000" />
-      <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+      <link rel="alternate" type="application/rss+xml" href={basePath + '/feed.xml'} /> */}
       <meta
         name="description"
-        content={
-          'A statically generated blog using Next.js and Markdown, written by Qwerty.'
-        }
+        content="A statically generated blog using Next.js and Markdown, written by Qwerty."
       />
       <meta
         property="og:image"
