@@ -32,7 +32,7 @@ const Post = ({ post }: Props) => {
               <Head>
                 <title>{post.title}</title>
                 <meta property="og:title" content={post.title} />
-                <meta property="og:description" content={post.excerpt} />
+                <meta property="og:description" content={post.excerpt || ''} />
               </Head>
               <PostHeader
                 title={post.title}
