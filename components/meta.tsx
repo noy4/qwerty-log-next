@@ -41,12 +41,15 @@ const Meta = () => {
       <meta name="description" content={description} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@noy_qwerty" />
-      <meta property="og:url" content="https://noy4.github.io/qwerty-log/" />
+      <meta
+        property="og:url"
+        content="https://noy4.github.io/qwerty-log-next/"
+      />
       <meta property="og:title" content="Qwerty Log" />
       <meta property="og:description" content={description} />
       <meta
         property="og:image"
-        content="https://noy4.github.io/qwerty-log/favicon/apple-touch-icon.png"
+        content="https://noy4.github.io/qwerty-log-next/favicon/apple-touch-icon.png"
       />
     </Head>
   )
